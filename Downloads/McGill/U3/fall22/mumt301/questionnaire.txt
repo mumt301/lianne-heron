@@ -1,0 +1,48 @@
+MUMT301-2021 Assignment 1
+QUESTIONNAIRE!
+
+The following questionnaire seeks to understand your previous knowledge about some of the concepts that we will learn in class during the coming term.
+
+1. Do you know any programming languages? If you do, which ones?
+
+I used Python in an intro programming class, but I'm not very comfortable with it.
+
+2. What is your primary computer operating system (OS)?
+
+MacOS
+
+3. Do you own a smartphone, tablet, or mobile device? What is your favourite OS for mobile devices?
+
+I've only ever used iPhones, so I only know iOS.
+
+4. Do you use any social networking services? If you do, which ones? Why?
+
+I use Instagram and Snapchat to keep up with my friends, and Facebook mostly for groups (school, work, events...).
+ 
+5. Expand the following acronyms and do research about their meaning. You may look them up if you don't know:
+
+    HTTP: HyperText Transfer Protocol - A protocol for transferring multimedia files from a client (browser) to a server.
+    REST: Representational State Transfer - A "software architectural style" used as an interface between a client and a server.
+    API: Application Programming Interface - An interface that allows for communication between software using a given protocol.
+
+6. Do you play a musical instrument or sing? If so, how much experience do you have?
+
+I've played piano for 17 years, violin for 15, and I've sung my whole life.
+
+7. Can you read music notation? If so, how well?
+
+I am very comfortable reading music. I grew up taking music theory lessons and passed the RCM Intermediate Rudiments theory exam.
+
+8. How large is your personal music collection? Estimate the number of artists, albums, and songs. If instead you listen to music using streaming services, how many playlists, artists, albums, and songs do you have in your account?
+
+I use Spotify to listen to music most of the time. I have 23 playlists, 42 artists, 478 albums, and roughly 4300 songs saved. I also have around 40 CDs, 60 vinyls, and 20 cassettes from ~40 different artists.
+
+9. How do you search and find new music? How do you think this affects the types of artists that you end up listening to?
+
+I often get recommendations from friends with similar taste. I also listen to Spotify-generated playlists and often add songs from there to my own collection. When I go thrifting, I like to buy CDs and records from artsts I don't know so I can expand what I listen to.
+
+10. Name two musical artists that you like. What do you find interesting about their music that makes you like them?
+
+Stephen Sondheim & Renee Rapp. Although he wasn't technically a perform, I think Stephen Sondheim was the greatest composer in terms of complexity and storytelling. He had a distinctive style that makes it easy to tell when a piece was written by him, even though none of them sound alike. His work does an amazing job of adding to the story of the musical it's in.
+I love the way Renee Rapp combines her powerful vocals and poetic lyrics to make songs that are impactful, but still fun to sing.
+
