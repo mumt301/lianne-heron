@@ -1,0 +1,247 @@
+<html>
+    <head>
+        <title>Lianne Heron</title>
+        <style>
+
+            #table1 {
+                font-family:Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            #table1 td, #table1 th {
+                border: 1px solid rgb(207, 161, 240);"
+                padding: 8px;
+            }
+
+            #table1 tr:nth-child(even){background-color:white;}
+
+            #table1 tr:hover {background-color:rgba(162, 162, 162, 0.483);}
+
+            #table1 th {
+                padding-top:12px;
+                padding-bottom:12px;
+                text-align:center;
+                background-color:rgb(171, 126, 204);
+                columns:white;
+            }
+
+            #table2 {
+                font-family:Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            #table2 td, #table2 th {
+                border: 1px solid rgb(207, 161, 240);"
+                padding: 8px;
+            }
+
+            #table2 tr:nth-child(even){background-color:white;}
+
+            #table2 tr:hover {background-color:rgba(162, 162, 162, 0.483);}
+
+            #table2 th {
+                padding-top:12px;
+                padding-bottom:12px;
+                text-align:center;
+                background-color:rgb(171, 126, 204);
+                columns:white;
+            }
+        </style>
+    </head>
+
+    <body style="background-color:rgb(233, 215, 246);" link="Purple" vlink="DarkOrchid">
+        <p style="font-family:brush script mt" align="center"><font size="10">Lianne Heron</font></p>
+
+        <!-- Link to my homepage -->
+        <p style="background-color:rgb(206, 171, 231);" align="center"><a href="https://mumt301.github.io/lianne-heron"><b>Home</b></a></p>
+        
+        <h1>Comparison of Audio Compression Methods</h1>
+    
+        <!-- Button to hide table 1 -->
+        <center>
+        <button style="color: white; background-color: rgb(171, 126, 204);" onclick="table1function()">Hide Table 1</button>
+        </center>
+
+        <br>
+
+        <!-- Table 1 -->
+        <div id="div1">
+        <table id="table1">
+                
+                <!-- Row 1, headers -->
+                <tr>
+                    <th>Filename</th>
+                    <th>Compression Algorithm</th>
+                    <th>Compression Bit-Rate</th>
+                    <th>Original File Size</th>
+                    <th>Compressed File Size</th>
+                    <th>Compression Ratio</th>
+                    <th>Original Version</th>
+                    <th>Compressed Version</th>
+                    <th>Residual Noise</th>
+                </tr>
+
+                <!-- Row 2, MP3 -->
+                <tr>
+                    <td>sample1_mp3.wav</td>
+                    <td>MP3</td>
+                    <td>96 kbps</td>
+                    <td>10600 KB</td>
+                    <td>932 KB</td>
+                    <td>0.088</td>
+                    <td><a href="sample1_mp3_orig.wav">Original audio</a></td>
+                    <td><a href="sample1_mp3_comp.wav">Compressed audio</a></td>
+                    <td><a href="sample1_mp3_res.wav">Residual audio</a></td>
+                </tr>
+
+                <!-- Row 3, OGG -->
+                <tr>
+                    <td>sample1_ogg.wav</td>
+                    <td>OGG</td>
+                    <td>96 kbps</td>
+                    <td>10600 KB</td>
+                    <td>931 KB</td>
+                    <td>0.088</td>
+                    <td><a href="sample1_ogg_orig.wav">Original audio</a></td>
+                    <td><a href="sample1_ogg_comp.wav">Compressed audio</a></td>
+                    <td><a href="sample1_ogg_res.wav">Residual audio</a></td>
+                </tr>
+
+                <!-- Row 4, MP2 -->
+                <tr>
+                    <td>sample1_mp2.wav</td>
+                    <td>MP2</td>
+                    <td>96 kbps</td>
+                    <td>10600 KB</td>
+                    <td>587 KB</td>
+                    <td>0.055</td>
+                    <td><a href="sample1_mp2_orig.wav">Original audio</a></td>
+                    <td><a href="sample1_mp2_comp.wav">Compressed audio</a></td>
+                    <td><a href="sample1_mp2_res.wav">Residual audio</a></td>
+                </tr>
+
+                <!-- Row 5, FLAC -->
+                <tr>
+                    <td>sample1_flac.wav</td>
+                    <td>FLAC</td>
+                    <td>98 kbps</td>
+                    <td>10600 KB</td>
+                    <td>932 KB</td>
+                    <td>0.088</td>
+                    <td><a href="sample1_flac_orig.wav">Original audio</a></td>
+                    <td><a href="sample1_flac_comp.wav">Compressed audio</a></td>
+                    <td><a href="sample1_flac_res.wav">Residual audio</a></td>
+                </tr>
+
+        </table>
+        </div>
+
+          <!-- Function for buttons -->
+          <script>
+            function table1function(){
+                var x = document.getElementById("table1");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+        
+        <br>
+        <br>
+
+        <!-- Button to hide table 2 -->
+        <center>
+        <button style="color: white; background-color: rgb(171, 126, 204);" onclick="table2function()">Hide Table 2</button>
+        </center>
+
+        <br>
+        
+        <!-- Table 2 -->
+        <div id="div1">
+            <table id="table2">
+                    
+                    <!-- Row 1, headers -->
+                    <tr>
+                        <th>Filename</th>
+                        <th>Compression Algorithm</th>
+                        <th>Compression Bit-Rate</th>
+                        <th>Original File Size</th>
+                        <th>Compressed File Size</th>
+                        <th>Compression Ratio</th>
+                        <th>Original Version</th>
+                        <th>Compressed Version</th>
+                        <th>Residual Noise</th>
+                    </tr>
+    
+                    <!-- Row 2, MP3 -->
+                    <tr>
+                        <td>sample2_mp3.wav</td>
+                        <td>MP3</td>
+                        <td>96 kbps</td>
+                        <td>10700 KB</td>
+                        <td>711 KB</td>
+                        <td>0.066</td>
+                        <td><a href="sample2_mp3_orig.wav">Original audio</a></td>
+                        <td><a href="sample2_mp3_comp.wav">Compressed audio</a></td>
+                        <td><a href="sample2_mp3_res.wav">Residual audio</a></td>
+                    </tr>
+    
+                    <!-- Row 3, OGG -->
+                    <tr>
+                        <td>sample2_ogg.wav</td>
+                        <td>OGG</td>
+                        <td>96 kbps</td>
+                        <td>10700 KB</td>
+                        <td>713 KB</td>
+                        <td>0.067</td>
+                        <td><a href="sample2_ogg_orig.wav">Original audio</a></td>
+                        <td><a href="sample2_ogg_comp.wav">Compressed audio</a></td>
+                        <td><a href="sample2_ogg_res.wav">Residual audio</a></td>
+                    </tr>
+    
+                    <!-- Row 4, MP2 -->
+                    <tr>
+                        <td>sample2_mp2.wav</td>
+                        <td>MP2</td>
+                        <td>96 kbps</td>
+                        <td>10700 KB</td>
+                        <td>579 KB</td>
+                        <td>0.054</td>
+                        <td><a href="sample2_mp2_orig.wav">Original audio</a></td>
+                        <td><a href="sample2_mp2_comp.wav">Compressed audio</a></td>
+                        <td><a href="sample2_mp2_res.wav">Residual audio</a></td> 
+                    </tr>
+    
+                    <!-- Row 5, FLAC -->
+                    <tr>
+                        <td>sample2_flac.wav</td>
+                        <td>FLAC</td>
+                        <td>96 kbps</td>
+                        <td>10700 KB</td>
+                        <td>713 KB</td>
+                        <td>0.067</td>
+                        <td><a href="sample2_flac_orig.wav">Original audio</a></td>
+                        <td><a href="sample2_flac_comp.wav">Compressed audio</a></td>
+                        <td><a href="sample2_flac_res.wav">Residual audio</a></td>
+                    </tr>
+    
+            </table>
+            </div>
+
+        <!-- Function for buttons -->
+        <script>
+            function table2function(){
+                var x = document.getElementById("table2");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+        
+    </body>
